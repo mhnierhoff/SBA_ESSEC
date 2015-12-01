@@ -23,7 +23,7 @@
 rm(list=ls(all=TRUE))
 
 # Let's load our dataset
-data=read.table('DATA_2.01_SKU.csv', header = T,sep=',') # The function read.table enables us to read flat files such as .csv files
+data=read.table('Week1/DATA_2.01_SKU.csv', header = T,sep=',') # The function read.table enables us to read flat files such as .csv files
 
 # Now let's have a look at our variables and see some summary statistics
 str(data) # The str() function shows the structure of your dataset and details the type of variables that it contains
@@ -66,7 +66,7 @@ xyplot(ADS~ CV,main = "After Clustering", type="p",group=groups,data=data, # def
 rm(list=ls(all=TRUE))
 
 # Let's load our dataset and call it data
-data=read.table('DATA_2.02_HR.csv',header = T,sep=',') # The function read.table enables us to read flat files such as .csv files
+data=read.table('Week1/DATA_2.02_HR.csv',header = T,sep=',') # The function read.table enables us to read flat files such as .csv files
 
 # Now let's have a look at our variables and see some summary statistics
 str(data) # The str() function shows the structure of your dataset and details the type of variables that it contains
@@ -128,7 +128,7 @@ aggdata
 rm(list=ls(all=TRUE))
 
 # Let's load the data
-data=read.table('DATA_2.03_Telco.csv', header = T,sep=',')# The function read.table enables us to read flat files such as .csv files
+data=read.table('Week1/DATA_2.03_Telco.csv', header = T,sep=',')# The function read.table enables us to read flat files such as .csv files
 
 # Now let's have a look at our variables and see some summary statistics
 str(data) # The str() function shows the structure of your dataset and details the type of variables that it contains
